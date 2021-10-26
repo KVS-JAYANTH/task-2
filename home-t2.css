@@ -1,0 +1,66 @@
+<style>
+	* {
+		margin: 1px;
+		padding: 1px;
+	}
+
+	h1{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: sticky;
+		top: 1px;
+		cursor: pointer;
+		color:white;
+		padding: 5px;
+		border: 2px solid grey;
+		border-radius: 9px;
+		background-color: brown;
+		color:white;
+	}
+	
+	h2{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color:white;
+		padding: 5px;
+		border: 2px solid grey;
+		border-radius: 9px;
+		background-color: brown;
+		color:white;
+	}
+	
+	body{
+		background: black;
+		background-blend-mode: darken;
+		background-size: cover;
+		color:white;
+	}
+
+	div{
+			font-size: bold;
+
+		}
+	
+	.column {
+		float: left;
+		width: 15%;
+		padding-left: 45px;
+	}
+
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+	pre{
+		display: flex;
+		color:white;
+	}
+
+	img {
+		width: 181pxpx;
+		border-radius: 51pxpx;
+	}
+</style>
